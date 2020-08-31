@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE0E127C24FD7A3F00F3346D /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E127B24FD7A3F00F3346D /* AppsViewController.swift */; };
+		BE0E127E24FD7B3D00F3346D /* ArcadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E127D24FD7B3D00F3346D /* ArcadeViewController.swift */; };
+		BE0E128024FD7B6400F3346D /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E127F24FD7B6400F3346D /* GamesViewController.swift */; };
+		BE0E128224FD7B8800F3346D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128124FD7B8800F3346D /* SearchViewController.swift */; };
+		BE0E128424FD7BBB00F3346D /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128324FD7BBB00F3346D /* Section.swift */; };
+		BE0E128624FD7C0300F3346D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128524FD7C0300F3346D /* App.swift */; };
+		BE0E128824FD7C5800F3346D /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128724FD7C5800F3346D /* Bundle-Decodable.swift */; };
 		BEE41BFC24FC36B800D0AB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41BFB24FC36B800D0AB5C /* AppDelegate.swift */; };
 		BEE41BFE24FC36B800D0AB5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41BFD24FC36B800D0AB5C /* SceneDelegate.swift */; };
 		BEE41C0024FC36B800D0AB5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41BFF24FC36B800D0AB5C /* ViewController.swift */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE0E127B24FD7A3F00F3346D /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		BE0E127D24FD7B3D00F3346D /* ArcadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadeViewController.swift; sourceTree = "<group>"; };
+		BE0E127F24FD7B6400F3346D /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		BE0E128124FD7B8800F3346D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		BE0E128324FD7BBB00F3346D /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		BE0E128524FD7C0300F3346D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		BE0E128724FD7C5800F3346D /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		BEE41BF824FC36B800D0AB5C /* ValAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE41BFB24FC36B800D0AB5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE41BFD24FC36B800D0AB5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,8 +75,15 @@
 				BEE41BFB24FC36B800D0AB5C /* AppDelegate.swift */,
 				BEE41BFD24FC36B800D0AB5C /* SceneDelegate.swift */,
 				BEE41BFF24FC36B800D0AB5C /* ViewController.swift */,
-				BEE41C0124FC36B800D0AB5C /* Main.storyboard */,
+				BE0E127B24FD7A3F00F3346D /* AppsViewController.swift */,
+				BE0E127D24FD7B3D00F3346D /* ArcadeViewController.swift */,
+				BE0E127F24FD7B6400F3346D /* GamesViewController.swift */,
+				BE0E128124FD7B8800F3346D /* SearchViewController.swift */,
+				BE0E128324FD7BBB00F3346D /* Section.swift */,
+				BE0E128524FD7C0300F3346D /* App.swift */,
+				BE0E128724FD7C5800F3346D /* Bundle-Decodable.swift */,
 				BEE41C0F24FC3AE400D0AB5C /* appstore.json */,
+				BEE41C0124FC36B800D0AB5C /* Main.storyboard */,
 				BEE41C0424FC36BB00D0AB5C /* Assets.xcassets */,
 				BEE41C0624FC36BB00D0AB5C /* LaunchScreen.storyboard */,
 				BEE41C0924FC36BB00D0AB5C /* Info.plist */,
@@ -142,8 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE0E128624FD7C0300F3346D /* App.swift in Sources */,
 				BEE41C0024FC36B800D0AB5C /* ViewController.swift in Sources */,
+				BE0E128224FD7B8800F3346D /* SearchViewController.swift in Sources */,
 				BEE41BFC24FC36B800D0AB5C /* AppDelegate.swift in Sources */,
+				BE0E127E24FD7B3D00F3346D /* ArcadeViewController.swift in Sources */,
+				BE0E127C24FD7A3F00F3346D /* AppsViewController.swift in Sources */,
+				BE0E128424FD7BBB00F3346D /* Section.swift in Sources */,
+				BE0E128824FD7C5800F3346D /* Bundle-Decodable.swift in Sources */,
+				BE0E128024FD7B6400F3346D /* GamesViewController.swift in Sources */,
 				BEE41BFE24FC36B800D0AB5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
