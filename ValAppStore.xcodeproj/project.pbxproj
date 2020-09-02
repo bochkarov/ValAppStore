@@ -16,6 +16,7 @@
 		BE0E128824FD7C5800F3346D /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128724FD7C5800F3346D /* Bundle-Decodable.swift */; };
 		BE0E128A24FD7E1600F3346D /* SelfConfiguringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128924FD7E1600F3346D /* SelfConfiguringCell.swift */; };
 		BE0E128C24FD7EAD00F3346D /* FeaturedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E128B24FD7EAD00F3346D /* FeaturedCell.swift */; };
+		BE53D7DA25000E2000BCFA99 /* SmallTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE53D7D925000E2000BCFA99 /* SmallTableCell.swift */; };
 		BED5DA6C24FEC96500B3CC5A /* MediumTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5DA6B24FEC96500B3CC5A /* MediumTableCell.swift */; };
 		BED5DA6E24FED2D900B3CC5A /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED5DA6D24FED2D900B3CC5A /* SectionHeader.swift */; };
 		BEE41BFC24FC36B800D0AB5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE41BFB24FC36B800D0AB5C /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 		BE0E128724FD7C5800F3346D /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		BE0E128924FD7E1600F3346D /* SelfConfiguringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfConfiguringCell.swift; sourceTree = "<group>"; };
 		BE0E128B24FD7EAD00F3346D /* FeaturedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedCell.swift; sourceTree = "<group>"; };
+		BE53D7D925000E2000BCFA99 /* SmallTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallTableCell.swift; sourceTree = "<group>"; };
 		BED5DA6B24FEC96500B3CC5A /* MediumTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTableCell.swift; sourceTree = "<group>"; };
 		BED5DA6D24FED2D900B3CC5A /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		BEE41BF824FC36B800D0AB5C /* ValAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 				BEE41BFD24FC36B800D0AB5C /* SceneDelegate.swift */,
 				BEE41BFF24FC36B800D0AB5C /* ViewController.swift */,
 				BE0E127B24FD7A3F00F3346D /* AppsViewController.swift */,
+				BE53D7D925000E2000BCFA99 /* SmallTableCell.swift */,
 				BE0E128924FD7E1600F3346D /* SelfConfiguringCell.swift */,
 				BE0E128B24FD7EAD00F3346D /* FeaturedCell.swift */,
 				BED5DA6B24FEC96500B3CC5A /* MediumTableCell.swift */,
@@ -177,6 +180,7 @@
 			files = (
 				BE0E128624FD7C0300F3346D /* App.swift in Sources */,
 				BEE41C0024FC36B800D0AB5C /* ViewController.swift in Sources */,
+				BE53D7DA25000E2000BCFA99 /* SmallTableCell.swift in Sources */,
 				BE0E128224FD7B8800F3346D /* SearchViewController.swift in Sources */,
 				BE0E128A24FD7E1600F3346D /* SelfConfiguringCell.swift in Sources */,
 				BEE41BFC24FC36B800D0AB5C /* AppDelegate.swift in Sources */,
